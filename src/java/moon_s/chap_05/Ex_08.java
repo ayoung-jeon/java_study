@@ -3,6 +3,8 @@ package src.java.moon_s.chap_05;
 public class Ex_08 {
     public static void main(String[] args) {
 
+        // 어려워서 아직 이해 못함
+
         // TODO 주어진 배열을 시계방향으로 90도 회전시켜 출력
         char[][] star = {
                 {'*', '*', ',', ','},
@@ -22,16 +24,16 @@ public class Ex_08 {
             System.out.println();
 
             for (int k = 0; k < star.length; k++) {
-                for (int j = 0; j < star[i].length; j++) {
+                for (int j = 0; j < star[k].length; j++) {
                     int x = j;
                     int y = star.length - 1 - k;
 
-                    result[x][y] = star[i][j];
+                    result[x][y] = star[k][j];
                 }
             }
 
             for (int z = 0; z < result.length; z++) {
-                for (int j = 0; j < result[i].length; j++) {
+                for (int j = 0; j < result[z].length; j++) {
                     System.out.print(result[z][j]);
                 }
                 System.out.println();
