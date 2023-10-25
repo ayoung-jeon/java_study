@@ -2,6 +2,7 @@ package src.java.moon_s.chap_06;
 
 public class Ex_08 {
 
+    // TODO 클래스변수, 인스턴스변수, 클래스메서드, 인스턴스메서드 구분하기
     class PlayingCard {
 
         // 클래스 블럭 안 -> 인스턴스 변수
@@ -22,6 +23,6 @@ public class Ex_08 {
     public static void main(String[] args) {
 
         // args, card -> 지역변수
-        PlayingCard card = new PlayingCard(1,1);
+        //PlayingCard card = new PlayingCard(1,1);
     }
 }

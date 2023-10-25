@@ -1,4 +1,4 @@
-package src.java.moon_s.chap_07;
+package src.java.moon_s.chap_06;
 
 public class Ex_07 {
 
