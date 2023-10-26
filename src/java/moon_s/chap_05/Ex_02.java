@@ -16,5 +16,6 @@ public class Ex_02 {
 
         System.out.println("sum = " + sum);
 
+
     }
 }
